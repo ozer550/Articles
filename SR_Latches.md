@@ -21,9 +21,11 @@ Lets study the most common and easy sequential circuit called SR Latch and obser
 
 ## SR Latch
 
-![Image of Combinational circuit](images/SR.gif)
+![Image of Combinational circuit](images/SR_latch.jpg)
 
-This circuit is called A SR Latch ,its one of the simplest sequential circuit consisting of two cross-coupled NOR gates. The latch has two inputs S and R and has two outputs Q and Q' . Lets try to figure out the four possible combinations of R and S. Let the gate having  input R be named N1 and that having S be N2.
+This circuit is called A SR Latch ,its one of the simplest sequential circuit consisting of two cross-coupled NOR gates. The latch has two inputs S and R and has two outputs Q and Q' . Lets try to figure out the four possible combinations of R and S. 
+
+**Let the gate having  input R be named N1 and that having S be N2.**
 
 * ### *case1 R=1 S=0* :
 
