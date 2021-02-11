@@ -53,7 +53,7 @@ This circuit is called A SR Latch ,its one of the simplest sequential circuit co
     * #### *case2 Q=1* :
          Now exactly inverse is happeningi i.e  N2 produces a false output and N1 recieves two false inputs spiting out true output
 
-Now at this point we can get essence of what a sequential circuit is and how it is dependent on previous input , U might be thinking wait a minute isn't it same like a combinational circuit it all depends on S and R just the inputs, yes it untill the very point when both S and R become false i.e 0 ,as we discussed above the value of Q must be either 0 or 1 there's no other possiblity other than that ,then **what exactly decides the value of Q ?** and the answer is the previous state of the system whether it was in (set) i.e S=1 R=0 or S=0 R=1(reset) state the system gets the previous value of Q that is bieng decided by the previous inputs and hence it is called a sequential circuit.
+Now at this point we can get essence of what a sequential circuit is and how it is dependent on previous input , U might be thinking wait a minute isn't it same like a combinational circuit it all depends on S and R just the inputs, yes it untill the very point when both S and R become false i.e 0 ,as we discussed above the value of Q must be either 0 or 1 there's no other possiblity other than that ,then **what exactly decides the value of Q ?** and the answer is the previous state of the system whether it was in (set) i.e S=1 R=0 or S=0 R=1(reset) state the system gets the previous value of Q that is bieng decided by the previous inputs and hence it is called a sequential circuit .
 
 
 
