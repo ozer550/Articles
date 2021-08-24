@@ -9,7 +9,7 @@ Let us try to first understand, what actually is a sequential circuit. Basically
 
 A combinational circuit's outputs depend only on the current values of the input i.e it combines the current input values to compute the output values.
 
-![Image of Combinational circuit](images/combinational_circuit.jpg)
+![Image of Combinational circuit](https://github.com/ozer619/Articles/blob/main/images/combinational_circuit.jpg)
 
 This is a combinational circuit as the output completely depends upon the input values.
 
@@ -21,7 +21,7 @@ Let's study the most common and easy sequential circuit called SR Latch and obse
 
 ## SR Latch
 
-![Image of Combinational circuit](images/SR_latch.jpg)
+![Image of Combinational circuit](https://github.com/ozer619/Articles/blob/main/images/SR_latch.jpg)
 
 This circuit is called A SR Latch, it is one of the simplest sequential circuit consisting of two cross-coupled NOR gates. The latch has two inputs S and R and has two outputs Q and Q'. Let's try to figure out the four possible combinations of R and S. 
 
