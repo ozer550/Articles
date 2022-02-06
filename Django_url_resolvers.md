@@ -1,6 +1,6 @@
 # Django Url Resolvers
 
-Django resolvers are utility functions that help us to resolve path and metadata of urls using the URL name. As we know hard coding stuff is really bad as it becomes really hard to fix bugs, there may be many instances where we have hardcoded a URL and changing the main route of URL in urls.py may brake your whole website and you will need to fix every instance of that hardcoded URL manually. This is where django url resolver utilities come into play. They help us to resolve path of urls using their given URL name, this way we need not worry about the various instances of the URL being used, we can just change it in the main urls.py file, and everywhere else it will automatically resolve using utilities.
+Django resolvers are utility functions that help us to resolve path and metadata of urls using the URL name. As we know hard coding stuff is really bad as it becomes really hard to fix bugs, there may be many instances where we have hardcoded a URL and changing the main route of URL in urls.py may break your whole website and you will need to fix every instance of that hardcoded URL manually. This is where django url resolver utilities come into play. They help us to resolve path of urls using their given URL name, this way we need not worry about the various instances of the URL being used, we can just change it in the main urls.py file, and everywhere else it will automatically resolve using utilities.
 
 Consider the following urls.py code for an app:
 
