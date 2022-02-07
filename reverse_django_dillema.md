@@ -13,6 +13,7 @@ from .views import ProjectDetailView
 urlpatterns = [
     path('project/<int:pk>/', ProjectDetailView.as_view(), name='project_detail'),
 ]
+```
 
 ```python
 #views.py
