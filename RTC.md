@@ -22,7 +22,7 @@ Different Techniques available for real-time communication are as follows:
 - Server-sent events
 - Web sockets
 
-### Regular polling
+### Regular Polling
 
 Imagine you have a gaming pc with lots of games in it. You have little brother, who likes to play games and asks you everytime that can he have the pc to play the games, you always patiently and kindly respond "I'm currently busy doing my work". He keeps on asking that untill your free from work and then you finally respond "OK you can play some games now". 
 
@@ -30,11 +30,12 @@ Imagine you have a gaming pc with lots of games in it. You have little brother, 
 
 This is waht exactly regualr polling is, in this technique the client repeteadly in regular short interval asks server if there is any change. The server responds to this with either saying there is not update or exchanging data if there is some change. This is clearly not real time, but could have some benefits if the polling interval is short. Regular polling does involve repeated unnecessary round trips between client-server.
 
-### Long polling 
+### Long Polling 
 You slowly start getting annoyed by the fact that your brother keeps on asking again and again so you dont respond everytime but only when you done with the work and ready to give the pc to your brother to play games.
 
 
-![longpolling](https://user-images.githubusercontent.com/51698593/155140978-cd25ca0a-83fa-4438-87fe-d823f90f3f38.png)
+![HTTP-Long-Polling](https://user-images.githubusercontent.com/51698593/155141173-0881c655-9283-42f8-a368-77ec1b11465d.png)
+
 
 In this technique the server simply sits on the request until something noteworthy happens, or the request is about to time out. This guarantees that the server has an open request to fire off a response at all times and can pass along information in real time. This way server also doesnot need to respond everytime to client optimising various aspects.
 
